@@ -12,7 +12,7 @@ public class ProdutoTeste {
         System.out.println("Preço: " + p1.preco);
         System.out.println("Desconto: " + p1.desconto);
 
-        double precoFinal = p1.preco * (1 - p1.desconto);
+        double precoFinal = p1.desconto();
         System.out.printf("Preço final = R$%.2f", precoFinal);
     }
 }
