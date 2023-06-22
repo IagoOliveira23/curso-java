@@ -3,6 +3,7 @@ package colecoes;
 import java.util.HashSet;
 import java.util.Set;
 
+@SuppressWarnings({"rawtypes", "unchecked"})
 public class ConjuntoBaguncado {
     public static void main(String[] args) {
         HashSet conjunto = new HashSet();
