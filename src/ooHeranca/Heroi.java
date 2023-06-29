@@ -1,6 +1,12 @@
 package ooHeranca;
 
 public class Heroi extends Jogador {
+
+    Heroi(int x, int y){
+        super(x, y);
+    }
+
+
     @Override
     boolean atacar(Jogador oponente) {
         int deltaX = Math.abs(x - oponente.x);
