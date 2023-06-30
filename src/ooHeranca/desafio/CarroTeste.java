@@ -13,6 +13,10 @@ public class CarroTeste {
 
         c1.acelerar();
         c1.acelerar();
+        c1.acelerar();
+        c2.acelerar();
+        c2.acelerar();
+        c2.acelerar();
         c2.acelerar();
         c2.frear();
 
