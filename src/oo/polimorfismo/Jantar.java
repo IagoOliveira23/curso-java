@@ -5,12 +5,12 @@ public class Jantar {
         Pessoa convidado = new Pessoa(99.65);
 
         Arroz ingrediente1 = new Arroz(0.10);
-
         Feijao ingrediente2 = new Feijao(0.20);
+        //Comida ingrediente3 = new Comida(0.3); abstract
 
         System.out.println(convidado.getPeso());
         convidado.comer(ingrediente1);
-                convidado.comer(ingrediente2);
+        convidado.comer(ingrediente2);
 
         System.out.println(convidado.getPeso());
 
