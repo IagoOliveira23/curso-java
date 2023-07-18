@@ -4,12 +4,10 @@ import java.util.Locale;
 import java.util.function.Function;
 import java.util.function.UnaryOperator;
 
-
-//import java.util.function.BinaryOperator;
-
 public class Desafio {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
+        
         Produto p = new Produto("iPad", 1234.56, 0.5);
         /*
          * 1. A partir do produto calcular o preço real (com desconto).
