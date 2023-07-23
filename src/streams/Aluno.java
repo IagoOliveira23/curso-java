@@ -16,6 +16,10 @@ public class Aluno {
         this(nome, nota, true);
     }
 
+    public String toString(){
+        return nome + " tem nota " + nota;
+    }
+
     
     
 }
